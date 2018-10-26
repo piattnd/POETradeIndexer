@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POETradeIndexer", "POETradeIndexer\POETradeIndexer.csproj", "{D6D1C162-5704-423D-A5C4-AAC6E496C329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POETradeIndexerService", "POETradeIndexerService\POETradeIndexerService.csproj", "{18D9730B-46C0-4E09-BEF7-0D463731EC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POEIndexerTester", "POEIndexerTester\POEIndexerTester.csproj", "{9B55DCB0-62E1-4063-BFFC-E421F52BDA0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POETraderWeb", "POETraderWeb\POETraderWeb.csproj", "{A6B4022F-8C3C-4C8E-A806-14E695C4B0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POETradeContext", "POETradeContext\POETradeContext.csproj", "{B8033FF1-A02D-4B18-ACAD-8D93416F2FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POEChangeGetService", "POEChangeGetService\POEChangeGetService.csproj", "{E5E9A75C-D4B7-44F0-94B4-F07D804F72D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D1C162-5704-423D-A5C4-AAC6E496C329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D1C162-5704-423D-A5C4-AAC6E496C329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D1C162-5704-423D-A5C4-AAC6E496C329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D1C162-5704-423D-A5C4-AAC6E496C329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D9730B-46C0-4E09-BEF7-0D463731EC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D9730B-46C0-4E09-BEF7-0D463731EC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D9730B-46C0-4E09-BEF7-0D463731EC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D9730B-46C0-4E09-BEF7-0D463731EC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B55DCB0-62E1-4063-BFFC-E421F52BDA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B55DCB0-62E1-4063-BFFC-E421F52BDA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B55DCB0-62E1-4063-BFFC-E421F52BDA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B55DCB0-62E1-4063-BFFC-E421F52BDA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B4022F-8C3C-4C8E-A806-14E695C4B0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B4022F-8C3C-4C8E-A806-14E695C4B0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B4022F-8C3C-4C8E-A806-14E695C4B0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B4022F-8C3C-4C8E-A806-14E695C4B0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8033FF1-A02D-4B18-ACAD-8D93416F2FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8033FF1-A02D-4B18-ACAD-8D93416F2FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8033FF1-A02D-4B18-ACAD-8D93416F2FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8033FF1-A02D-4B18-ACAD-8D93416F2FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E9A75C-D4B7-44F0-94B4-F07D804F72D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E9A75C-D4B7-44F0-94B4-F07D804F72D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E9A75C-D4B7-44F0-94B4-F07D804F72D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E9A75C-D4B7-44F0-94B4-F07D804F72D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

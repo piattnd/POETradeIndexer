@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="962dbb78f4bc4b0d9f8a55756ce56b9d" Name="Diagram1">
+        <EntityTypeShape EntityType="poe_traderModel.POE_ACCOUNT" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_CHANGE" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_ITEM" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_MODS" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_PROPERTY" Width="1.5" PointX="7.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_PROPERTY_TYPE" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_REQUIREMENT" Width="1.5" PointX="10.5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_REQUIREMENT_TYPE" Width="1.5" PointX="8.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_SOCKET" Width="1.5" PointX="7.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="poe_traderModel.POE_STASH" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="poe_traderModel.stashToAcctId" ManuallyRouted="false" />
+        <AssociationConnector Association="poe_traderModel.poe_item_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="poe_traderModel.itemIdConstraint" ManuallyRouted="false" />
+        <AssociationConnector Association="poe_traderModel.itemToMod" ManuallyRouted="false" />
+        <AssociationConnector Association="poe_traderModel.poe_item_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="poe_traderModel.reqItemConstraint" ManuallyRouted="false" />
+        <AssociationConnector Association="poe_traderModel.socketItemIdConstraint" ManuallyRouted="false" />
+        <AssociationConnector Association="poe_traderModel.propTypeConstraint" ManuallyRouted="false" />
+        <AssociationConnector Association="poe_traderModel.reqTypeConstraint" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,14 @@
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\bin\Debug\POEChangeGetService.exe.config
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\bin\Debug\POEChangeGetService.exe
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\bin\Debug\POEChangeGetService.pdb
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\bin\Debug\POETradeIndexer.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\bin\Debug\MySql.Data.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\bin\Debug\POETradeIndexer.pdb
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\bin\Debug\POETradeIndexer.dll.config
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\obj\Debug\POEChangeGetService.csprojResolveAssemblyReference.cache
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\obj\Debug\POEChangeGetService.POEChangeGetService.resources
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\obj\Debug\POETradeIndexerService.ProjectInstaller.resources
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\obj\Debug\POEChangeGetService.csproj.GenerateResource.Cache
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\obj\Debug\POEChangeGetService.exe
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POEChangeGetService\obj\Debug\POEChangeGetService.pdb

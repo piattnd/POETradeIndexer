@@ -1,0 +1,3 @@
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Release\POETradeIndexer.Form1.resources
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Release\POETradeIndexer.Properties.Resources.resources
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Release\POETradeIndexer.csproj.GenerateResource.Cache

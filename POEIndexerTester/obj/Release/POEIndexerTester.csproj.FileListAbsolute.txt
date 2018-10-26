@@ -1,0 +1,4 @@
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POEIndexerTester\bin\Release\POEIndexerTester.exe.config
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POEIndexerTester\obj\Release\POEIndexerTester.Form1.resources
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POEIndexerTester\obj\Release\POEIndexerTester.Properties.Resources.resources
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POEIndexerTester\obj\Release\POEIndexerTester.csproj.GenerateResource.Cache

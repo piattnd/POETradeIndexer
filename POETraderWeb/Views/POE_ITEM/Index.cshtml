@@ -1,0 +1,89 @@
+﻿@model IEnumerable<POETraderWeb.Models.POE_ITEM>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Item Search</h2>
+<form asp-controller="poe_item" asp-action="Index">
+    <p>
+        Item Name: <input type="text" name="itemName" />
+        <input type="submit" value="Search" />
+    </p>
+</form>
+<table class="table">
+    @foreach (var item in Model)
+    {
+        <tbody>
+            <tr>
+                <td rowspan="5">
+                    <img src="@Html.DisplayFor(modelItem => item.ICON)" />
+                </td>
+                <td>
+                    <a href="./Details/@item.UNIQUE_ID">@Html.DisplayFor(modelItem => item.ITEM_NAME) @Html.DisplayFor(modelItem => item.TYPE_LINE)</a>
+                </td>
+                <td>
+                    @Html.DisplayNameFor(modelItem => modelItem.NOTE) @Html.DisplayFor(modelItem => item.NOTE)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(modelItem => modelItem.POE_STASH.STASH_NAME) @Html.DisplayFor(modelItem => item.POE_STASH.STASH_NAME)
+                </td>
+            <tr>
+                @if (!String.IsNullOrEmpty(item.CONCAT_FLAVOUR_TEXT))
+                {
+                    <td colspan="3">
+                        <lu>
+                            @Html.DisplayFor(modelItem => item.CONCAT_FLAVOUR_TEXT)
+                            @{
+                                foreach (POETraderWeb.Models.POE_MODS theMod in item.POE_MODS)
+                                {
+                                    <li>@theMod.MOD_TEXT</li>
+                                }
+                            }
+                        </lu>
+                    </td>
+                                }
+            </tr>
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(modelItem => modelItem.ITEM_LEVEL) @Html.DisplayFor(modelItem => item.ITEM_LEVEL)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(modelItem => modelItem.LEAGUE) @Html.DisplayFor(modelItem => item.LEAGUE)
+                </td>
+                <td>
+                    <lu>
+                        <li>
+                            @Html.DisplayNameFor(modelItem => modelItem.STASH_POS_X) @Html.DisplayFor(modelItem => item.STASH_POS_X)
+                        </li>
+                        <li>
+                            @Html.DisplayNameFor(modelItem => modelItem.STASH_POS_Y) @Html.DisplayFor(modelItem => item.STASH_POS_Y)
+                        </li>
+                    </lu>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(modelItem => modelItem.IDENTIFIED) @Html.DisplayFor(modelItem => item.IDENTIFIED)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(modelItem => modelItem.CORRUPTED) @Html.DisplayFor(modelItem => item.CORRUPTED)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(modelItem => modelItem.ADDED_TS) @item.getAge())
+                </td>
+            </tr>
+            <tr>
+                @if (!String.IsNullOrEmpty(item.SEC_DESCRIPTION) && !String.IsNullOrEmpty(item.DESCRIPTION_TEXT))
+                {
+                    <td colspan="3">
+                        @Html.DisplayFor(modelItem => item.SEC_DESCRIPTION) @Html.DisplayFor(modelItem => item.DESCRIPTION_TEXT)
+                    </td>
+                }
+            </tr>
+
+            </tr>
+        </tbody>
+                                }
+
+</table>

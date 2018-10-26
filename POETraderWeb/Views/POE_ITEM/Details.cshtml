@@ -1,0 +1,282 @@
+﻿@model POETraderWeb.Models.POE_ITEM
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>POE_ITEM</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ITEM_NAME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ITEM_NAME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VERIFIED)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VERIFIED)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ITEM_LEVEL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ITEM_LEVEL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TYPE_LINE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TYPE_LINE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDENTIFIED)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDENTIFIED)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CORRUPTED)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CORRUPTED)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LOCKED_TO_CHAR)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LOCKED_TO_CHAR)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NOTE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOTE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FRAME_TYPE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FRAME_TYPE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.STASH_POS_X)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.STASH_POS_X)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.STASH_POS_Y)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.STASH_POS_Y)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SEC_DESCRIPTION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SEC_DESCRIPTION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DESCRIPTION_TEXT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPTION_TEXT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DUPLICATED)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DUPLICATED)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MAX_STACK_SIZE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MAX_STACK_SIZE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.STACK_SIZE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.STACK_SIZE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SUPPORT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SUPPORT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SLOT_WIDTH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SLOT_WIDTH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SLOT_HEIGHT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SLOT_HEIGHT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ICON)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ICON)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LEAGUE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LEAGUE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.INVENTORY_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.INVENTORY_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ART_FILE_NAME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ART_FILE_NAME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TALISMAN_TIER)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TALISMAN_TIER)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PROPH_DIFF_TEXT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PROPH_DIFF_TEXT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PROPHECY_TEXT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PROPHECY_TEXT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IS_RELIC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IS_RELIC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SOCKETED_TO_ITEM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SOCKETED_TO_ITEM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ADDED_TS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ADDED_TS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CONCAT_FLAVOUR_TEXT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CONCAT_FLAVOUR_TEXT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.POE_CHANGE.NEXT_CHANGE_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.POE_CHANGE.NEXT_CHANGE_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.POE_STASH.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.POE_STASH.ID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.UNIQUE_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

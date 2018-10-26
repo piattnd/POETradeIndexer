@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="poe_traderModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="POE_ACCOUNT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ACCOUNT_NAME" Type="varchar" MaxLength="60" />
+    <Property Name="LAST_CHAR_NAME" Type="varchar" MaxLength="60" />
+    <Property Name="LAST_ITEM_ADDED" Type="datetime" Precision="0" />
+  </EntityType>
+  <EntityType Name="POE_CHANGE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NEXT_CHANGE_ID" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="CHANGE_RECEIVED" Type="datetime" Precision="0" />
+    <Property Name="STASH_COUNT" Type="int" />
+    <Property Name="JSON_DATA" Type="mediumtext" />
+    <Property Name="PROCESSED" Type="tinyint" />
+    <Property Name="JSON_DATA_RETRIEVED" Type="tinyint" />
+    <Property Name="CHANGE_PROCESSED" Type="datetime" Precision="0" />
+    <Property Name="IN_PROCESS" Type="tinyint" />
+    <Property Name="PROCESS_START" Type="datetime" Precision="0" />
+  </EntityType>
+  <EntityType Name="POE_ITEM">
+    <Key>
+      <PropertyRef Name="UNIQUE_ID" />
+    </Key>
+    <Property Name="UNIQUE_ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="STASH_ID" Type="bigint" />
+    <Property Name="ITEM_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="VERIFIED" Type="tinyint" />
+    <Property Name="ITEM_LEVEL" Type="int" />
+    <Property Name="TYPE_LINE" Type="varchar" MaxLength="100" />
+    <Property Name="IDENTIFIED" Type="tinyint" />
+    <Property Name="CORRUPTED" Type="tinyint" />
+    <Property Name="LOCKED_TO_CHAR" Type="tinyint" />
+    <Property Name="NOTE" Type="longtext" />
+    <Property Name="FRAME_TYPE" Type="smallint" />
+    <Property Name="STASH_POS_X" Type="int" />
+    <Property Name="STASH_POS_Y" Type="int" />
+    <Property Name="SEC_DESCRIPTION" Type="longtext" />
+    <Property Name="DESCRIPTION_TEXT" Type="longtext" />
+    <Property Name="DUPLICATED" Type="tinyint" />
+    <Property Name="MAX_STACK_SIZE" Type="int" />
+    <Property Name="STACK_SIZE" Type="int" />
+    <Property Name="SUPPORT" Type="tinyint" />
+    <Property Name="SLOT_WIDTH" Type="int" />
+    <Property Name="SLOT_HEIGHT" Type="int" />
+    <Property Name="ICON" Type="mediumtext" />
+    <Property Name="LEAGUE" Type="varchar" MaxLength="45" />
+    <Property Name="INVENTORY_ID" Type="varchar" MaxLength="256" />
+    <Property Name="ART_FILE_NAME" Type="varchar" MaxLength="256" />
+    <Property Name="TALISMAN_TIER" Type="tinyint" />
+    <Property Name="PROPH_DIFF_TEXT" Type="varchar" MaxLength="256" />
+    <Property Name="PROPHECY_TEXT" Type="mediumtext" />
+    <Property Name="IS_RELIC" Type="tinyint" />
+    <Property Name="SOCKETED_TO_ITEM" Type="bigint" />
+    <Property Name="ADDED_TS" Type="datetime" Precision="0" />
+    <Property Name="CONCAT_FLAVOUR_TEXT" Type="text" />
+    <Property Name="CHANGE_ID" Type="bigint" />
+  </EntityType>
+  <EntityType Name="POE_MODS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ITEM_ID" Type="bigint" />
+    <Property Name="MOD_TEXT" Type="text" />
+    <Property Name="MOD_TYPE" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="POE_PROPERTY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ITEM_ID" Type="bigint" />
+    <Property Name="DISPLAY_MODE" Type="int" />
+    <Property Name="TYPE" Type="int" />
+    <Property Name="PROGRESS" Type="int" />
+    <Property Name="IS_ADDITIONAL_PROPERTY" Type="tinyint" />
+    <Property Name="PROPERTY_VALUE" Type="int" />
+    <Property Name="PROPERTY_TYPE_ID" Type="bigint" />
+    <Property Name="PROPERTY_VALUE_STRING" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="POE_PROPERTY_TYPE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="varchar" MaxLength="75" />
+    <Property Name="TYPE_SYMBOL" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="POE_REQUIREMENT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ITEM_ID" Type="bigint" />
+    <Property Name="DISPLAY_MODE" Type="tinyint" />
+    <Property Name="TYPE" Type="tinyint" />
+    <Property Name="PROGRESS" Type="tinyint" />
+    <Property Name="IS_ADDITIONAL_REQUIREMENT" Type="tinyint" />
+    <Property Name="REQUIREMENT_VALUE" Type="int" />
+    <Property Name="REQUIREMENT_TYPE_ID" Type="bigint" />
+    <Property Name="REQUIREMENT_VALUE_STRING" Type="varchar" MaxLength="45" />
+    <Property Name="IS_NEXT_LEVEL_REQUIREMENT" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="POE_REQUIREMENT_TYPE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="varchar" MaxLength="75" />
+    <Property Name="TYPE_SYMBOL" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="POE_SOCKET">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ITEM_ID" Type="bigint" />
+    <Property Name="GROUP_ID" Type="int" />
+    <Property Name="ATTRIBUTE" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="POE_STASH">
+    <Key>
+      <PropertyRef Name="STASH_UNIQUE_ID" />
+    </Key>
+    <Property Name="STASH_UNIQUE_ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="STASH_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="STASH_TYPE" Type="varchar" MaxLength="45" />
+    <Property Name="ACCOUNT_ID" Type="bigint" />
+  </EntityType>
+  <Association Name="itemIdConstraint">
+    <End Role="POE_ITEM" Type="Self.POE_ITEM" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="POE_PROPERTY" Type="Self.POE_PROPERTY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_ITEM">
+        <PropertyRef Name="UNIQUE_ID" />
+      </Principal>
+      <Dependent Role="POE_PROPERTY">
+        <PropertyRef Name="ITEM_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="itemToMod">
+    <End Role="POE_ITEM" Type="Self.POE_ITEM" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="POE_MODS" Type="Self.POE_MODS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_ITEM">
+        <PropertyRef Name="UNIQUE_ID" />
+      </Principal>
+      <Dependent Role="POE_MODS">
+        <PropertyRef Name="ITEM_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="poe_item_ibfk_1">
+    <End Role="POE_STASH" Type="Self.POE_STASH" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="POE_ITEM" Type="Self.POE_ITEM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_STASH">
+        <PropertyRef Name="STASH_UNIQUE_ID" />
+      </Principal>
+      <Dependent Role="POE_ITEM">
+        <PropertyRef Name="STASH_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="poe_item_ibfk_2">
+    <End Role="POE_CHANGE" Type="Self.POE_CHANGE" Multiplicity="0..1" />
+    <End Role="POE_ITEM" Type="Self.POE_ITEM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_CHANGE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="POE_ITEM">
+        <PropertyRef Name="CHANGE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="propTypeConstraint">
+    <End Role="POE_PROPERTY_TYPE" Type="Self.POE_PROPERTY_TYPE" Multiplicity="0..1" />
+    <End Role="POE_PROPERTY" Type="Self.POE_PROPERTY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_PROPERTY_TYPE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="POE_PROPERTY">
+        <PropertyRef Name="PROPERTY_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="reqItemConstraint">
+    <End Role="POE_ITEM" Type="Self.POE_ITEM" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="POE_REQUIREMENT" Type="Self.POE_REQUIREMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_ITEM">
+        <PropertyRef Name="UNIQUE_ID" />
+      </Principal>
+      <Dependent Role="POE_REQUIREMENT">
+        <PropertyRef Name="ITEM_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="reqTypeConstraint">
+    <End Role="POE_REQUIREMENT_TYPE" Type="Self.POE_REQUIREMENT_TYPE" Multiplicity="0..1" />
+    <End Role="POE_REQUIREMENT" Type="Self.POE_REQUIREMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_REQUIREMENT_TYPE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="POE_REQUIREMENT">
+        <PropertyRef Name="REQUIREMENT_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="socketItemIdConstraint">
+    <End Role="POE_ITEM" Type="Self.POE_ITEM" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="POE_SOCKET" Type="Self.POE_SOCKET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_ITEM">
+        <PropertyRef Name="UNIQUE_ID" />
+      </Principal>
+      <Dependent Role="POE_SOCKET">
+        <PropertyRef Name="ITEM_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="stashToAcctId">
+    <End Role="POE_ACCOUNT" Type="Self.POE_ACCOUNT" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="POE_STASH" Type="Self.POE_STASH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POE_ACCOUNT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="POE_STASH">
+        <PropertyRef Name="ACCOUNT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="poe_traderModelStoreContainer">
+    <EntitySet Name="POE_ACCOUNT" EntityType="Self.POE_ACCOUNT" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_CHANGE" EntityType="Self.POE_CHANGE" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_ITEM" EntityType="Self.POE_ITEM" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_MODS" EntityType="Self.POE_MODS" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_PROPERTY" EntityType="Self.POE_PROPERTY" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_PROPERTY_TYPE" EntityType="Self.POE_PROPERTY_TYPE" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_REQUIREMENT" EntityType="Self.POE_REQUIREMENT" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_REQUIREMENT_TYPE" EntityType="Self.POE_REQUIREMENT_TYPE" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_SOCKET" EntityType="Self.POE_SOCKET" Schema="poe_trader" store:Type="Tables" />
+    <EntitySet Name="POE_STASH" EntityType="Self.POE_STASH" Schema="poe_trader" store:Type="Tables" />
+    <AssociationSet Name="itemIdConstraint" Association="Self.itemIdConstraint">
+      <End Role="POE_ITEM" EntitySet="POE_ITEM" />
+      <End Role="POE_PROPERTY" EntitySet="POE_PROPERTY" />
+    </AssociationSet>
+    <AssociationSet Name="itemToMod" Association="Self.itemToMod">
+      <End Role="POE_ITEM" EntitySet="POE_ITEM" />
+      <End Role="POE_MODS" EntitySet="POE_MODS" />
+    </AssociationSet>
+    <AssociationSet Name="poe_item_ibfk_1" Association="Self.poe_item_ibfk_1">
+      <End Role="POE_STASH" EntitySet="POE_STASH" />
+      <End Role="POE_ITEM" EntitySet="POE_ITEM" />
+    </AssociationSet>
+    <AssociationSet Name="poe_item_ibfk_2" Association="Self.poe_item_ibfk_2">
+      <End Role="POE_CHANGE" EntitySet="POE_CHANGE" />
+      <End Role="POE_ITEM" EntitySet="POE_ITEM" />
+    </AssociationSet>
+    <AssociationSet Name="propTypeConstraint" Association="Self.propTypeConstraint">
+      <End Role="POE_PROPERTY_TYPE" EntitySet="POE_PROPERTY_TYPE" />
+      <End Role="POE_PROPERTY" EntitySet="POE_PROPERTY" />
+    </AssociationSet>
+    <AssociationSet Name="reqItemConstraint" Association="Self.reqItemConstraint">
+      <End Role="POE_ITEM" EntitySet="POE_ITEM" />
+      <End Role="POE_REQUIREMENT" EntitySet="POE_REQUIREMENT" />
+    </AssociationSet>
+    <AssociationSet Name="reqTypeConstraint" Association="Self.reqTypeConstraint">
+      <End Role="POE_REQUIREMENT_TYPE" EntitySet="POE_REQUIREMENT_TYPE" />
+      <End Role="POE_REQUIREMENT" EntitySet="POE_REQUIREMENT" />
+    </AssociationSet>
+    <AssociationSet Name="socketItemIdConstraint" Association="Self.socketItemIdConstraint">
+      <End Role="POE_ITEM" EntitySet="POE_ITEM" />
+      <End Role="POE_SOCKET" EntitySet="POE_SOCKET" />
+    </AssociationSet>
+    <AssociationSet Name="stashToAcctId" Association="Self.stashToAcctId">
+      <End Role="POE_ACCOUNT" EntitySet="POE_ACCOUNT" />
+      <End Role="POE_STASH" EntitySet="POE_STASH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

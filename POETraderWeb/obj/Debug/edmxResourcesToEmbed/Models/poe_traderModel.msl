@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="poe_traderModelStoreContainer" CdmEntityContainer="poe_traderEntities">
+    <EntitySetMapping Name="POE_ACCOUNT">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_ACCOUNT">
+        <MappingFragment StoreEntitySet="POE_ACCOUNT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ACCOUNT_NAME" ColumnName="ACCOUNT_NAME" />
+          <ScalarProperty Name="LAST_CHAR_NAME" ColumnName="LAST_CHAR_NAME" />
+          <ScalarProperty Name="LAST_ITEM_ADDED" ColumnName="LAST_ITEM_ADDED" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_CHANGE">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_CHANGE">
+        <MappingFragment StoreEntitySet="POE_CHANGE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NEXT_CHANGE_ID" ColumnName="NEXT_CHANGE_ID" />
+          <ScalarProperty Name="CHANGE_RECEIVED" ColumnName="CHANGE_RECEIVED" />
+          <ScalarProperty Name="STASH_COUNT" ColumnName="STASH_COUNT" />
+          <ScalarProperty Name="JSON_DATA" ColumnName="JSON_DATA" />
+          <ScalarProperty Name="PROCESSED" ColumnName="PROCESSED" />
+          <ScalarProperty Name="JSON_DATA_RETRIEVED" ColumnName="JSON_DATA_RETRIEVED" />
+          <ScalarProperty Name="CHANGE_PROCESSED" ColumnName="CHANGE_PROCESSED" />
+          <ScalarProperty Name="IN_PROCESS" ColumnName="IN_PROCESS" />
+          <ScalarProperty Name="PROCESS_START" ColumnName="PROCESS_START" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_ITEM">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_ITEM">
+        <MappingFragment StoreEntitySet="POE_ITEM">
+          <ScalarProperty Name="UNIQUE_ID" ColumnName="UNIQUE_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="STASH_ID" ColumnName="STASH_ID" />
+          <ScalarProperty Name="ITEM_NAME" ColumnName="ITEM_NAME" />
+          <ScalarProperty Name="VERIFIED" ColumnName="VERIFIED" />
+          <ScalarProperty Name="ITEM_LEVEL" ColumnName="ITEM_LEVEL" />
+          <ScalarProperty Name="TYPE_LINE" ColumnName="TYPE_LINE" />
+          <ScalarProperty Name="IDENTIFIED" ColumnName="IDENTIFIED" />
+          <ScalarProperty Name="CORRUPTED" ColumnName="CORRUPTED" />
+          <ScalarProperty Name="LOCKED_TO_CHAR" ColumnName="LOCKED_TO_CHAR" />
+          <ScalarProperty Name="NOTE" ColumnName="NOTE" />
+          <ScalarProperty Name="FRAME_TYPE" ColumnName="FRAME_TYPE" />
+          <ScalarProperty Name="STASH_POS_X" ColumnName="STASH_POS_X" />
+          <ScalarProperty Name="STASH_POS_Y" ColumnName="STASH_POS_Y" />
+          <ScalarProperty Name="SEC_DESCRIPTION" ColumnName="SEC_DESCRIPTION" />
+          <ScalarProperty Name="DESCRIPTION_TEXT" ColumnName="DESCRIPTION_TEXT" />
+          <ScalarProperty Name="DUPLICATED" ColumnName="DUPLICATED" />
+          <ScalarProperty Name="MAX_STACK_SIZE" ColumnName="MAX_STACK_SIZE" />
+          <ScalarProperty Name="STACK_SIZE" ColumnName="STACK_SIZE" />
+          <ScalarProperty Name="SUPPORT" ColumnName="SUPPORT" />
+          <ScalarProperty Name="SLOT_WIDTH" ColumnName="SLOT_WIDTH" />
+          <ScalarProperty Name="SLOT_HEIGHT" ColumnName="SLOT_HEIGHT" />
+          <ScalarProperty Name="ICON" ColumnName="ICON" />
+          <ScalarProperty Name="LEAGUE" ColumnName="LEAGUE" />
+          <ScalarProperty Name="INVENTORY_ID" ColumnName="INVENTORY_ID" />
+          <ScalarProperty Name="ART_FILE_NAME" ColumnName="ART_FILE_NAME" />
+          <ScalarProperty Name="TALISMAN_TIER" ColumnName="TALISMAN_TIER" />
+          <ScalarProperty Name="PROPH_DIFF_TEXT" ColumnName="PROPH_DIFF_TEXT" />
+          <ScalarProperty Name="PROPHECY_TEXT" ColumnName="PROPHECY_TEXT" />
+          <ScalarProperty Name="IS_RELIC" ColumnName="IS_RELIC" />
+          <ScalarProperty Name="SOCKETED_TO_ITEM" ColumnName="SOCKETED_TO_ITEM" />
+          <ScalarProperty Name="ADDED_TS" ColumnName="ADDED_TS" />
+          <ScalarProperty Name="CONCAT_FLAVOUR_TEXT" ColumnName="CONCAT_FLAVOUR_TEXT" />
+          <ScalarProperty Name="CHANGE_ID" ColumnName="CHANGE_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_MODS">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_MODS">
+        <MappingFragment StoreEntitySet="POE_MODS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ITEM_ID" ColumnName="ITEM_ID" />
+          <ScalarProperty Name="MOD_TEXT" ColumnName="MOD_TEXT" />
+          <ScalarProperty Name="MOD_TYPE" ColumnName="MOD_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_PROPERTY">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_PROPERTY">
+        <MappingFragment StoreEntitySet="POE_PROPERTY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ITEM_ID" ColumnName="ITEM_ID" />
+          <ScalarProperty Name="DISPLAY_MODE" ColumnName="DISPLAY_MODE" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+          <ScalarProperty Name="PROGRESS" ColumnName="PROGRESS" />
+          <ScalarProperty Name="IS_ADDITIONAL_PROPERTY" ColumnName="IS_ADDITIONAL_PROPERTY" />
+          <ScalarProperty Name="PROPERTY_VALUE" ColumnName="PROPERTY_VALUE" />
+          <ScalarProperty Name="PROPERTY_TYPE_ID" ColumnName="PROPERTY_TYPE_ID" />
+          <ScalarProperty Name="PROPERTY_VALUE_STRING" ColumnName="PROPERTY_VALUE_STRING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_PROPERTY_TYPE">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_PROPERTY_TYPE">
+        <MappingFragment StoreEntitySet="POE_PROPERTY_TYPE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="TYPE_SYMBOL" ColumnName="TYPE_SYMBOL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_REQUIREMENT">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_REQUIREMENT">
+        <MappingFragment StoreEntitySet="POE_REQUIREMENT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ITEM_ID" ColumnName="ITEM_ID" />
+          <ScalarProperty Name="DISPLAY_MODE" ColumnName="DISPLAY_MODE" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+          <ScalarProperty Name="PROGRESS" ColumnName="PROGRESS" />
+          <ScalarProperty Name="IS_ADDITIONAL_REQUIREMENT" ColumnName="IS_ADDITIONAL_REQUIREMENT" />
+          <ScalarProperty Name="REQUIREMENT_VALUE" ColumnName="REQUIREMENT_VALUE" />
+          <ScalarProperty Name="REQUIREMENT_TYPE_ID" ColumnName="REQUIREMENT_TYPE_ID" />
+          <ScalarProperty Name="REQUIREMENT_VALUE_STRING" ColumnName="REQUIREMENT_VALUE_STRING" />
+          <ScalarProperty Name="IS_NEXT_LEVEL_REQUIREMENT" ColumnName="IS_NEXT_LEVEL_REQUIREMENT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_REQUIREMENT_TYPE">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_REQUIREMENT_TYPE">
+        <MappingFragment StoreEntitySet="POE_REQUIREMENT_TYPE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="TYPE_SYMBOL" ColumnName="TYPE_SYMBOL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_SOCKET">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_SOCKET">
+        <MappingFragment StoreEntitySet="POE_SOCKET">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ITEM_ID" ColumnName="ITEM_ID" />
+          <ScalarProperty Name="GROUP_ID" ColumnName="GROUP_ID" />
+          <ScalarProperty Name="ATTRIBUTE" ColumnName="ATTRIBUTE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POE_STASH">
+      <EntityTypeMapping TypeName="poe_traderModel.POE_STASH">
+        <MappingFragment StoreEntitySet="POE_STASH">
+          <ScalarProperty Name="STASH_UNIQUE_ID" ColumnName="STASH_UNIQUE_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="STASH_NAME" ColumnName="STASH_NAME" />
+          <ScalarProperty Name="STASH_TYPE" ColumnName="STASH_TYPE" />
+          <ScalarProperty Name="ACCOUNT_ID" ColumnName="ACCOUNT_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

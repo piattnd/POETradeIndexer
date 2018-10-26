@@ -1,0 +1,61 @@
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\POETradeIndexer.exe.config
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\POETradeIndexer.exe
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\POETradeIndexer.pdb
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Data.dll
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF5.dll
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF6.dll
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Fabric.Plugin.dll
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Web.dll
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Data.xml
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF5.xml
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF6.xml
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\MySql.Web.xml
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\obj\Debug\POETradeIndexer.csprojResolveAssemblyReference.cache
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\obj\Debug\POETradeIndexer.csproj.POETradeIndexer.exe.config
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\obj\Debug\POETradeIndexer.Form1.resources
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\obj\Debug\POETradeIndexer.Properties.Resources.resources
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\obj\Debug\POETradeIndexer.csproj.GenerateResource.Cache
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\obj\Debug\POETradeIndexer.exe
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\obj\Debug\POETradeIndexer.pdb
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\Newtonsoft.Json.dll
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\Newtonsoft.Json.pdb
+c:\users\pippz\documents\visual studio 2015\Projects\POETradeIndexer\POETradeIndexer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.pdb
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\POETradeIndexer.pdb
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Data.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Web.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF5.xml
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Web.xml
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.csprojResolveAssemblyReference.cache
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.Form1.resources
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.Properties.Resources.resources
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.csproj.GenerateResource.Cache
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\POETradeIndexer.pdb
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Data.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Web.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Data.Entity.EF5.xml
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\MySql.Web.xml
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.Form1.resources
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.Properties.Resources.resources
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.csproj.GenerateResource.Cache
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.pdb
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\EntityFramework.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\EntityFramework.xml
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\EntityFramework.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\EntityFramework.xml
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\POETradeIndexer.dll.config
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\POETradeIndexer.dll
+C:\Users\Piatt\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\POETradeIndexer.dll.config
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\bin\Debug\POETradeIndexer.dll
+C:\Users\Pippz\Source\Repos\poe_trade_indexer\POETradeIndexer\obj\Debug\POETradeIndexer.dll
